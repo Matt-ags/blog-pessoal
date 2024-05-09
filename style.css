@@ -1,0 +1,111 @@
+* {box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* sempre lembre de colocar estas caracteristicas e propriedades acima! */
+
+body{
+    font-family: "Open Sans"; color: #ffffff;
+    background-color: #45484b;}
+
+/* criação do cabeçario: */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #36393b;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Roboto Slab';
+
+}
+
+header h2 {
+    margin: 0; 
+    color: #fff; 
+}
+
+header h1{
+    color: #eee6ab;
+    margin: 0;
+}
+
+header img {
+    width: 100px; 
+    height: auto;
+    margin-right: 20px; 
+}
+
+/* fazendo o escopo em si, estou usando umas "margin" para deixar um pouco afastando, não sei se é correto. */
+
+.inicio{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid 1px #eee6ab;
+}
+
+.inicio p{
+    margin: 1% 1% 1%;
+}
+
+#initi{
+
+    background-color: #eee6ab;
+    font-family: 'Roboto Slab'; color: #36393b;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #696758; height: 50px;
+}
+
+.historia, .internet, .hoje{ 
+    display: flex;
+    flex-direction: column;
+    margin: 1% 1% 1% ;
+
+}
+
+.resumo{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1% 1% 1% 35%;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    background-color: #eee6ab;
+    font-family; color: #36393b;
+}
+
+.video{
+    display: flex;
+    justify-content:right;
+}
+
+/* criando o rodapé: */
+
+footer{
+    background-color: #36393b;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h4{
+    background; height: 100px;
+
+}
+
+/* cara, de alguma forma o span insiste em ficar grudado na esquerda. */
+.span{
+    background-color: #eee6ab75;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
